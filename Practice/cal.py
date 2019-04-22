@@ -63,16 +63,16 @@
 #         list.append(i)
 # print(list)
 
-list1=[2]
+#list1=[2]
 
 #1000内的质数
-for i in range(3, 1001):
-    for j in range(2, i):
-        if i % j == 0:
-            break
-    else:
-        list1.append(i)
-print(list1)
+# for i in range(3, 1001):
+#     for j in range(2, i):
+#         if i % j == 0:
+#             break
+#     else:
+#         list1.append(i)
+# print(list1)
 
 #print(list(set(list1)))
 
@@ -86,3 +86,9 @@ print(list1)
 #     a = b
 #     b = c
 #     n += 10
+
+#冒泡法
+
+
+
+
