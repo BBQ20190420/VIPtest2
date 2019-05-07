@@ -32,20 +32,20 @@ time.sleep(5)
 driver.get_screenshot_as_file(path+"/"+mytime+".png")
 time.sleep(2)
 
-#id定位
-driver.find_element_by_id("kw").send_keys("python")
-#name定位
-driver.find_element_by_name("wd").send_keys("python")
-#class定位
-driver.find_element_by_class_name("s_ipt").send_keys("python")
-#文本定位,当带有超链接的时候，可以使用此种方式
-driver.find_element_by_link_text("hao123").click()
-#文本定位，带文字过多时，可以使用模糊匹配
-driver.find_element_by_partial_link_text("ao123").click()
-#xpath定位
-driver.find_element_by_xpath('//*[@id="s_menus_wrapper"]/span[2]').click()
-#css定位
-driver.find_element_by_css_selector("#lg").click()
+# #id定位
+# driver.find_element_by_id("kw").send_keys("python")
+# #name定位
+# driver.find_element_by_name("wd").send_keys("python")
+# #class定位
+# driver.find_element_by_class_name("s_ipt").send_keys("python")
+# #文本定位,当带有超链接的时候，可以使用此种方式
+# driver.find_element_by_link_text("hao123").click()
+# #文本定位，带文字过多时，可以使用模糊匹配
+# driver.find_element_by_partial_link_text("ao123").click()
+# #xpath定位
+# driver.find_element_by_xpath('//*[@id="s_menus_wrapper"]/span[2]').click()
+# #css定位
+# driver.find_element_by_css_selector("#lg").click()
 
 #关闭
 driver.close()
