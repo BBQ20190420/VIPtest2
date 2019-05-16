@@ -5,6 +5,7 @@
 # print("number is %d"%num)
 # #哒哒哒
 # print("let's go")
+import study511
 """
 good boy!
 """
@@ -123,32 +124,32 @@ good girl!
 
 
 
-firstdict={"lily":10,"tom":12,"mary":11,"bob":6}
-print(firstdict)
-print(type(firstdict))
-
-
-print(firstdict['bob'])
-firstdict['lily']=8
-print(firstdict)
-firstdict['fred']=20
-
-
-print(firstdict)
-print(firstdict.keys())
-print(type(firstdict.keys()))
-
-newlist1=list(firstdict)
-print(newlist1)
-
-print(firstdict.values())
-print(firstdict.items())
-
-for item in firstdict.items():
-    print(item)
-
-del firstdict['tom']
-print(firstdict)
+# firstdict={"lily":10,"tom":12,"mary":11,"bob":6}
+# print(firstdict)
+# print(type(firstdict))
+#
+#
+# print(firstdict['bob'])
+# firstdict['lily']=8
+# print(firstdict)
+# firstdict['fred']=20
+#
+#
+# print(firstdict)
+# print(firstdict.keys())
+# print(type(firstdict.keys()))
+#
+# newlist1=list(firstdict)
+# print(newlist1)
+#
+# print(firstdict.values())
+# print(firstdict.items())
+#
+# for item in firstdict.items():
+#     print(item)
+#
+# del firstdict['tom']
+# print(firstdict)
 
 # firstdict.clear()
 # print(firstdict)
